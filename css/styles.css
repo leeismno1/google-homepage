@@ -1,0 +1,154 @@
+html {
+    height : 100%;
+    min-height: 100%;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    "about store . gmail images elipses me";
+    margin: 0 20px 0 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0,0,0,0.87);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#about{
+    grid-area: about;
+    justify-self: center;
+    align-self: center;
+}
+
+#store{
+    grid-area: store;
+    justify-self: center;
+    align-self: center;
+}
+
+#gmail{
+    grid-area: gmail;
+    justify-self: center;
+    align-self: center;
+}
+
+#images{
+    grid-area: images;
+    justify-self: center;
+    align-self: center;
+}
+
+#elipses{
+    grid-area: elipses;
+    justify-self: center;
+    align-self: center;
+}
+
+#me{
+    grid-area: me;
+    justify-self: center;
+    align-self: center;
+}
+
+#main {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:250px 70px 70px 250px;
+    grid-template-areas: 
+    ". logo ."
+    ". text-search ."
+    ". flex ."
+    ". bottom-text .";
+}
+
+#logo {
+    grid-area: logo;
+    justify-self: center;
+    align-self: end;
+}
+
+#text-search {
+    grid-area: text-search;
+    justify-self: center;
+    align-self: center;
+}
+
+#flex {
+    grid-area: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+#google-search {
+    grid-area: google-search;
+    justify-self: center;
+    align-self: center;
+}
+
+#lucky-search {
+    grid-area: lucky-search;
+    justify-self: center;
+    align-self: center;
+}
+
+#bottom-text {
+    grid-area: bottom-text;
+    justify-self: center;
+    
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 100px 100px 150px 1300px 70px 70px 70px;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    "advertising business search-works .  privacy terms settings";
+    
+}
+
+#advertising {
+    grid-area: advertising;
+    justify-self: center;
+    align-self: center;
+}
+
+#business {
+    grid-area: business;
+    justify-self: center;
+    align-self: center;
+}
+
+#search-works {
+    grid-area: search-works;
+    justify-self: center;
+    align-self: center;
+}
+
+#privacy {
+    grid-area: privacy;
+    justify-self: center;
+    align-self: center;
+}
+
+#terms {
+    grid-area: terms;
+    justify-self: center;
+    align-self: center;
+}
+
+#settings {
+    grid-area: settings;
+    justify-self: center;
+    align-self: center;
+}
+
