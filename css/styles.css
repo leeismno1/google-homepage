@@ -77,8 +77,21 @@ a {
 
 #text-search {
     grid-area: text-search;
+    height: 30px;
+    width: 80%;
+    align-self: center;
     justify-self: center;
     align-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 30px;
+}
+
+#text-search:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+
+#text-search:hover {
+    box-shadow: 1px 1px 5px grey;
 }
 
 #flex {
@@ -89,18 +102,40 @@ a {
 
 #google-search {
     grid-area: google-search;
+    border: none;
+    font-size: 15px;
+    color: #595c61;
     justify-self: center;
     align-self: center;
+}
+
+#google-search:hover {
+    box-shadow: 1px 1px 5px grey;
 }
 
 #lucky-search {
     grid-area: lucky-search;
+    border: none;   
+    font-size: 15px;
+    color: #595c61; 
     justify-self: center;
     align-self: center;
 }
 
+#lucky-search:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
 #bottom-text {
     grid-area: bottom-text;
+    font-size: 15px;
+    justify-self: center;
+    
+}
+
+#facts {
+    grid-area: bottom-text;
+    font-size: 15px;
     justify-self: center;
     
 }
